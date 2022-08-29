@@ -1,0 +1,185 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+    font-family: "Roboto Black";
+    display: flex;
+    padding: 0 10%;
+    padding-top: 16px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+.segment1 {
+    min-height: 468px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 32px;
+    gap: 32px;
+}
+
+.segment1 img {
+    width: 50%;
+    min-width: 400px;
+    height: auto;
+}
+
+.heroContainer>:nth-child(1) {  /* Hero Text */
+    font-size: 48px;
+    font-family: "Roboto Black";
+    color: #f9faf8;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.heroContainer>:nth-child(2) {  /* Hero Subtext */
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 16px;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.signUpButton {
+    width: 200px;
+    height: 50px;
+    color: #f9faf8;
+    font-family: Roboto;
+    font-weight: 600;
+    background-color: #3882f6;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+    font-size: 20px;
+}
+
+.signUpButton:hover {
+    cursor: pointer;
+    background-color: #1b6ae9;
+}
+
+.signUpButton:active {
+    background-color: #005bec;
+}
+
+.blueThing>.signUpButton { /* Blue Thing Button */
+    border-color: #f9faf8;
+}
+
+.segment2 {
+    min-height: 468px;
+    padding-bottom: 32px;
+}
+
+.segment2>:nth-child(1) { /* Segment 2 Title */
+    color: #1f2937;
+    font-family: "Roboto Black";
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imageText {
+    font-size: 24px;
+    color: #4b5563;
+    text-align: center;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.imageContainer img {
+    height: 300px;
+    width: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+}
+
+.segment3 {
+    min-height: 468px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.quote {
+    font-family: "Roboto Light";
+    font-size: 36px;
+    margin: 0 25%;
+}
+
+.quoteCredit {
+    font-weight: 600;
+    font-size: 18px;
+    align-self: flex-end;
+    margin-right: 25%
+}
+
+.segment4 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueThing {
+    color: #f9faf8;
+    background-color: #3882f6;
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 25%;
+    border-radius: 8px;
+}
+
+.blueThingText>:nth-child(1) { /* Blue Thing Title */
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 25px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #e5e7eb;
+    text-decoration-thickness: 2px;
+}
